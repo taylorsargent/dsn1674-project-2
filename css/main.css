@@ -1,1 +1,60 @@
-font-family: 'Noto Sans', sans-serif;
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.redbox {
+  width: 100%;
+  background-color: #e7001d;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+nav {
+  background-color: #222222;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+nav ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  float: left;
+  width: 50%;
+}
+
+nav a {
+  display: block;
+  padding: 0.5em 0.75em;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+nav a:hover {
+  background-color: #e7001d;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2 {
+  font-family: 'Noto Sans', sans-serif;
+}
