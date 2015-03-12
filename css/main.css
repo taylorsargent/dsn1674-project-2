@@ -23,7 +23,7 @@ body {
 
 nav {
   background-color: #222222;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
   overflow: hidden;
@@ -66,21 +66,29 @@ h1, h2 {
 .dragon {
   background-color: #e4c22a;
   width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 .goat {
   background-color: black;
   width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 .rooster {
   background-color: #e7001d;
   width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 .ox {
   background-color: #e4c22a;
   width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
 p {
@@ -99,17 +107,150 @@ footer {
   color: white;
   font-family: 'Noto Sans', sans-serif;
   font-size: 0.75em;
+  text-decoration: underline;
 }
 
 .medallion {
   width: 6em;
   left: 35%;
   position: absolute;
-  display: block;
+  top: 20%;
 }
 
 .symbols {
   color: white;
-  font-size: 2.5em;
+  font-size: 3em;
   text-align: center;
+  position: absolute;
+  left: 35%;
+  top: 18%;
+  text-shadow: 2px 2px black;
+}
+
+.title {
+  color: white;
+  font-size: 1em;
+  position: absolute;
+  left: 32%;
+  top: 65%;
+  text-shadow: 2px 2px black;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  width: 100%;
+}
+
+.banner-title {
+  color: white;
+  position: absolute;
+  left: 35%;
+  bottom: 10%;
+  text-shadow: 2px 2px black;
+  font-style: italic;
+}
+
+.text {
+  margin: 0.75em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.dragon-symbol {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dragon-image {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.dragon-title {
+  font-size: 1.5em;
+}
+
+.dragon-text {
+  font-style: italic;
+  font-size: 0.75em;
+}
+
+.goat-title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.goat-symbol {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.goat-image {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.goat-text {
+  color: white;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.rooster-title {
+  color: white;
+  font-size: 1.5em;
+}
+
+.rooster-symbol {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rooster-image {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.rooster-text {
+  color: white;
+  font-size: 0.75em;
+  font-style: italic;
+}
+
+.ox-title {
+  font-size: 1.5em;
+}
+
+.ox-symbol {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ox-image {
+  width: 47%;
+  display: inline;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ox-text {
+  font-size: 0.75em;
+  font-style: italic;
 }
